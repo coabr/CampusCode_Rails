@@ -1,6 +1,6 @@
 # Passo a passo da task_list
 
-## Você pode acessar o metrial ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDev_Rails.pdf)
+### Você pode acessar o metrial ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDev_Rails.pdf)
 
 - [x] ``` $ rails new task_list ```
 
@@ -13,3 +13,7 @@
 - [x] Utiliza o metodo root, para rota "olá" aparecer na rota '/'
 
 - [x] Cria o model task.rb em app/models e cria objetos do model task para mostrar na view
+
+- [x] Deleta o arquivo task.rb e roda o comando ``` $ rails generate model task description:string status:boolean```
+
+- [x] Cria as _migrations_ que serão responsaveis por gerar a estrutura que salva o model no banco de dados
