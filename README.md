@@ -7,3 +7,5 @@
 - [x] Cria o home_controller.rb​ em app/controllers, para processar a requisição 
 
 - [x] Cria a view em app/views/home/welcome.html.erb
+
+- [x] Utiliza o metodo root, para rota "olá" aparecer na rota '/'
