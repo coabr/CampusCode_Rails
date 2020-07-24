@@ -2,6 +2,8 @@
 
 - [x] ``` $ rails new task_list ```
 
-- [x] Adiciona rota ``` get '/ola', to: 'home#welcome' ``` em config > routes.rb
+- [x] Adiciona rota ``` get '/ola', to: 'home#welcome' ``` em config/routes.rb
 
-- [x] Cria o home_controller.rb​ em app > controllers, para processar a requisição 
+- [x] Cria o home_controller.rb​ em app/controllers, para processar a requisição 
+
+- [x] Cria a view em app/views/home/welcome.html.erb
