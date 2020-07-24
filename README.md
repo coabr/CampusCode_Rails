@@ -1,6 +1,6 @@
 # Passo a passo da task_list
 
-## Você pode acessar o metrial ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDEv_Rails.pdf)
+## Você pode acessar o metrial ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDev_Rails.pdf)
 
 - [x] ``` $ rails new task_list ```
 
@@ -12,4 +12,4 @@
 
 - [x] Utiliza o metodo root, para rota "olá" aparecer na rota '/'
 
-- [x] Cria o model task.rb em app/models
+- [x] Cria o model task.rb em app/models e cria objetos do model task para mostrar na view
