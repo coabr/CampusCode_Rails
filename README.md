@@ -1,4 +1,6 @@
-# CampusCode_Rails
+# Passo a passo da task_list
+
+## Você pode acessar o metrial ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDEv_Rails.pdf)
 
 - [x] ``` $ rails new task_list ```
 
@@ -9,3 +11,5 @@
 - [x] Cria a view em app/views/home/welcome.html.erb
 
 - [x] Utiliza o metodo root, para rota "olá" aparecer na rota '/'
+
+- [x] Cria o model task.rb em app/models
