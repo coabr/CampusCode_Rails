@@ -1,7 +1,7 @@
-class HomeController < ApplicationController  
-    def welcome    
-        @tasks = []    
-        @tasks << Task.new(description: 'Comprar pão')    
-        @tasks << Task.new(description: 'Comprar leite')  
+class Task
+  attr_reader :description, :status
+    def initialize(description, status = false)
+      @description = description
+      @status = status
     end
 end
