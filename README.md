@@ -19,3 +19,5 @@
 - [x] Cria as _migrations_ que serão responsaveis por gerar a estrutura que salva o model no banco de dados
 
 - [x] Cria a class Task em task.rb, na pasta app/models
+
+- [x] Cria o model através do Rails para os dados persistirem no banco de dados
