@@ -23,3 +23,5 @@
 - [x] Cria o model através do Rails para os dados persistirem no banco de dados
 
 - [x] Roda o comando ```$ rails db:migrate``` para gerar a estrutura que salva no banco de dados
+
+- [x] Busca todas as entradas da tabela 'tasks' do banco de dados
