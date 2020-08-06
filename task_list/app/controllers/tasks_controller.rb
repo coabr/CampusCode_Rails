@@ -7,4 +7,8 @@ class TasksController < ApplicationController
     @task.save #salva no banco a tarefa que criamos
     redirect_to root_path
   end
+
+  def edit
+  end
+  
 end
