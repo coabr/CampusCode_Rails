@@ -12,4 +12,9 @@ class TasksController < ApplicationController
     @task = Task.find(params[:id])
   end
 
+  def update
+    @task = Task.find(params[:id])
+    @task.update(params.require(:task).permit(:description, :status))
+    redirect_to root_path
+  end
 end

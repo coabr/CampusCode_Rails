@@ -1,5 +1,5 @@
-<%= form_for Task.new do |f| %>
-  <%= f.label :description, 'Descricao' %>
+<%= form_for @task do |f| %>
+  <%= f.label :description, 'Descrição' %>
   <%= f.text_field :description %>
   <%= f.label :status, 'Status' %>
   <%= f.check_box :status %>
