@@ -3,7 +3,7 @@ class TasksController < ApplicationController
   end
 
   def create
-    puts params
+    @task = Task.new(description: params[:task][:description], status: params[:task][:status])
+    @task.save #salva no banco a tarefa que criamos
   end
-
 end
