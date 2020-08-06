@@ -3,7 +3,8 @@ class TasksController < ApplicationController
   end
 
   def create
-    @task = Task.new(params.require(:task).permit(:description, status:))
+    @task = Task.new(params.require(:task).permit(:description, :status))
     @task.save #salva no banco a tarefa que criamos
+    redirect_to root_path
   end
 end
