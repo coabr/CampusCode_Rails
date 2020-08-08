@@ -4,5 +4,6 @@
 <% @tasks.each do |task| %>  
   <%= task.description %>
   <%= link_to 'Editar', edit_task_path(task) %>
+  <%= link_to 'Apagar', task_path(task), method: :delete %>
   <br>
 <% end %>
