@@ -17,4 +17,10 @@ class TasksController < ApplicationController
     @task.update(params.require(:task).permit(:description, :status))
     redirect_to root_path
   end
+
+  def destroy 
+    task = Task.find(params[:id]) # nao precisa do @ pois nao tem view associada
+    task.destroy # destroi a tarefa encontrada
+    redirect_to root_path
+  end
 end
