@@ -1,6 +1,6 @@
 # Passo a passo da task_list
 
-### Você pode acessar o metrial ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDev_Rails.pdf)
+### Você pode acessar o material ![aqui](https://github.com/COAB1/CampusCode_Rails/blob/master/TreinaDev_Rails.pdf)
 
 - [x] ``` $ rails new task_list ```
 
